@@ -10,7 +10,7 @@ public class Practice1 {
 		 */
 int i=30;
 do {
-	System.out.println(i);
+	System.out.print(i+" ");
 	i++;
 }while(i<=70);
 
@@ -19,7 +19,7 @@ do {
 System.out.println("------practice2-------");
 int b=99;
 do {
-	System.out.println(b);
+	System.out.print(b+" ");
 	b--;
 }while(b>=1);
 
