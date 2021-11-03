@@ -13,7 +13,7 @@ public class PatternsMore {
 
 }
 	System.out.println("---------------------------------");
-	for(int r=5; r>=1; r--) {
+	for(int r=3; r>=1; r--) {
 		for(int c=4; c>=1; c--) {
 			System.out.print(c+" ");
 			
