@@ -1,5 +1,6 @@
 package com.syntax.homework;
 
+
 public class Class10HwGroup09 {
 
 	public static void main(String[] args) {
@@ -16,9 +17,25 @@ public class Class10HwGroup09 {
 			
 		}
 		System.out.println("Maximum number is "+max+". "+"Minimum number is "+min);
-			
 		
+		
+		System.out.println("------------------");
+			
+		int[]number= {10,5,3,-5,15};
+		int largestNumber=Integer.MIN_VALUE;
+		int smallestNumber=Integer.MAX_VALUE;
+		for(int i=0;i<number.length; i++) {
+			if(number[i]>largestNumber) {
+				largestNumber=number[i];
+			}
+			if (number[i]<smallestNumber) {
+				smallestNumber=number[i];
+			}
+		}
 
+		System.out.println(largestNumber);
+		System.out.println(smallestNumber);
+		
 	}
 
 }

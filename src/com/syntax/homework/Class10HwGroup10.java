@@ -19,5 +19,20 @@ public class Class10HwGroup10 {
 		System.out.println("Second largest number in array is "+ secondlargest);
 
 	
+		System.out.println("----------------");
+		
+		int[] numbers= {15,10,17,13,30};
+		int Largest=Integer.MIN_VALUE;
+		int SecondLargest=Integer.MAX_VALUE;
+		for (int i=0; i<numbers.length; i++) {
+			if(numbers[i]>Largest) {
+				SecondLargest=Largest;
+				Largest=numbers[i];
+			}else if (numbers[i]>SecondLargest && Largest!=numbers[i]) {
+				SecondLargest=numbers[i];
+			}
+			
+		}
+		System.out.println("Second largest number in array is "+ SecondLargest);
 	}
 }
