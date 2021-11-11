@@ -15,11 +15,12 @@ Password should match confirmed password, if not  message=“Passwords do not matc
 Only after all requirements met message “Your username and password has been created”
  */
 		
+
 		Scanner scan=new Scanner(System.in);
 		System.out.println("Enter a user name and password?");
-		String username=scan.next();
-		String password=scan.next();
-		String password2=scan.next();
+		String username=scan.nextLine();
+		String password=scan.nextLine();
+		String password2=scan.nextLine();
 		
 		if(username.length()==0|| password.length()==0 || password2.length()==0) {
 			System.out.println("Username and password cannot be empty");
