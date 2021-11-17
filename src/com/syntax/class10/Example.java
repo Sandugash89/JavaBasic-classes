@@ -29,7 +29,7 @@ public class Example {
 			System.out.print(car + " ");
 		}
 
-		System.out.println(cars[0]);
+		System.out.print(cars[0]);
 
 	}
 

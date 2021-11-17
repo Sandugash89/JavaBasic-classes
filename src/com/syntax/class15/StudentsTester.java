@@ -8,19 +8,19 @@ public class StudentsTester {
 		Students SyntaxSchool =new Students();
 		SyntaxSchool.studentName="Sandugash";
 		SyntaxSchool.studentID=32;
-		System.out.println(SyntaxSchool.numberofstudents);
+		Students.numberofstudents++;
 		
 		
 		Students JavaSchool =new Students();
 		JavaSchool.studentName="Evelin";
 		JavaSchool.studentID=32;
-		System.out.println(JavaSchool.numberofstudents);
+		Students.numberofstudents++;
 		
 		Students Course=new Students();
 		Course.studentName="Baur";
 		Course.studentID=31;
-		System.out.println(Course.numberofstudents);
-
+		Students.numberofstudents++;
+		System.out.println(Students.numberofstudents);
 	}
 
 }

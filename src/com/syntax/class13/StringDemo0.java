@@ -12,6 +12,7 @@ public class StringDemo0 {
 		 System.out.print("String Length :" );
 		 System.out.println(Str2.length());
 
+		 
 	}
 
 }

@@ -11,7 +11,7 @@ public class Students {
 	 */
 	String studentName;
 	int studentID;
-	static int numberofstudents=100;
+	static int numberofstudents;
 	
 
 }

@@ -6,6 +6,7 @@ public class Methods3Tester {
 		// TODO Auto-generated method stub
 Methods3 alex=new Methods3();
 int max=alex.getMax(14, 15);
+System.out.println(max);
 	}
 
 }
